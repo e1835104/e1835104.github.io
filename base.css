@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+body {
+    font-size: 18px;
+    font-family: Meiryo "メイリオ";
+}
+
+h1{
+    text-align: center;
+    background-color: powderblue;
+}
+
+/* IDセレクタ
+#top {
+    color: coral;
+} */
+
+h2 {
+    color: coral;
+}
+
+#blue {
+    color: blue;
+}
+
+p {
+    font-family: serif;
+    font-size: 22px;
+   
+}
