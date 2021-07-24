@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/base.css">
+        <script src="js/Finalkadai.js"></script>
+        <title>最終課題</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>世界の面白いじゃんけん</h1>
+        </header>
+
+        <div>
+            <h2>第１問：「チョキ」を英語でなんて言う？</h2>
+            <button type="button" onclick="English(1)">チョッキ―</button>
+            <button type="button" onclick="English(2)">チョッキン</button>
+            <button type="button" onclick="English(3)">シザーズ</button>
+        </div>
+
+        <div>
+            <h2>第２問：「グー」をフランス語でなんて言う？</h2>
+            <button type="button" onclick="France(1)">ピエール</button>
+            <button type="button" onclick="France(2)">ボンジュール</button>
+            <button type="button" onclick="France(3)">シャンデリゼ</button>
+        </div>
+
+        <div>
+            <h2>第3問：「パー」をインドネシア語でなんて言う？</h2>
+            <button type="button" onclick="Indonesia(1)">パッパー</button>
+            <button type="button" onclick="Indonesia(2)">スムット</button>
+            <button type="button" onclick="Indonesia(3)">パパパ</button>
+        </div>
+
+        <div>
+            <h2 id="blue">★分からない人は各国のじゃんけん事情について学ぼう★</h2>
+            <p>◎アメリカ(国旗クリックで別リンクへ移動↓↓↓)</p>
+            <a href="../Final_Kadai/america.html" target="USflag"><img src="image/US.png" alt="USflag" width="400"></a>
+        </div>
+
+        <div>
+            <p>◎フランス(国旗クリックで別リンクへ移動↓↓↓)</p>
+            <a href="../Final_Kadai/france.html" target="Franceflag"><img src="image/Franceflsg.png" alt="Franceflag" width="400"></a>
+        </div>
+
+        <div>
+            <p>◎インドネシア(国旗クリックで別リンクへ移動↓↓↓)</p>
+            <a href="../Final_Kadai/indonesia.html" target="Indonesiaflag"><img src="image/Indonesiaflag.png" alt="Indonesiaflag" width="400"></a>
+        </div>
+
+        <div>
+            <h2>質問などお問い合わせ</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="last-name">姓：</label>
+                    <input type="text" name="lastname" required>
+            
+                    <label for="first-name">名：</label>
+                    <input type="text" name="firstname" required>
+                </div>
+
+                <label>
+                    <input type="radio" name="sex" value="male">
+                    男性
+                </label>
+                <label>
+                    <input type="radio" name="sex" value="female">
+                    女性
+                </label>
+                <label>
+                    <input type="radio" name="sex" value="other">
+                    その他
+                </label>
+
+                <div>
+                    <label for="requests">要望：</label>
+                    <textarea name="requests" id="requests" cols="30" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <label>
+                        メールアドレス：
+                        <input type="email" required>
+                    </label>
+                </div>
+
+                <div>
+                    <input type="submit" value="送信する">
+                    <input type="reset" value="リセット">
+                </div>
+            </form>
+        </div>
+
+        <a href="#top">トップへ戻る</a>
+
+    </body>
+
+</html>
